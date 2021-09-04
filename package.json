@@ -11,6 +11,14 @@
   "scripts": {
     "start": "nodemon --exec babel-node index.js"
   },
+  "nodemonConfig": {
+    "nodemonConfig": {
+      "watch": [
+        "graphql"
+      ],
+      "ext": "js, json, jsx, env, graphql"
+    }
+  },
   "devDependencies": {
     "@babel/cli": "^7.15.4",
     "@babel/core": "^7.15.5",
